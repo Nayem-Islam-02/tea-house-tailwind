@@ -6,7 +6,10 @@
     <title>Tea house tailwind</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+
 <script>
     tailwind.config = {
       theme: {
@@ -18,8 +21,43 @@
       }
     }
   </script>
+  
+     
 </head>
 <body>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="md:flex mt-3">
+            <!-- header left -->
+             <div class="lg:w-1/2 border">
+                <h1 class="text-5xl lg:text-6xl  font-semibold tracking-wide  ">
+                    It's good <br> tea time at The <br> The House
+                </h1>
+                <p class="text-gary-700 mt-2  md:w-1/2 ">Tea and Botanical Solutions Suppller Give Optimum  Satisfaction To Your Taste Buds</p>
+                <div class="flex">
+
+                <button class="px-5 flex py-4 mt-2 rounded-lg border bg-gradient-to-r from-orange-500 to-red-500"><p class="text-white font-bold">Explore More</p><i class="ri-arrow-right-line text-white"></i>
+
+                </button>
+            </div>
+
+             </div>
+             <!-- header left end -->
+              <!-- header right -->
+               <div class="relative border">
+                <img class="w-full  " src="./images/banner.png" alt="">
+
+                <div class=" absolute flex items-center  px-2 py-2   bg-white rounded-lg top-28 md:left-32 shadow-lg lg:py-4 lg:left-48 lg:top-48 xl:top-72 xl:left-52 md:mt-16 md:-ml-14">
+                    <i class="ri-star-s-fill text-orange-600 text-4xl"></i>
+                    <div><h1 class="font-bold text-2xl">5.00</h1>
+                    <p class="text-gray-700">Trust Pilot Ratings</p></div>
+                </div>
+
+               </div>
+               <!-- header right end -->
+        </header>
+
+    </main>
     
 </body>
 </html>
+
